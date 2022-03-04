@@ -1,0 +1,44 @@
+Invitación:
+===========
+
+Para unirte a la reunión en Google Meet, haz clic en este vínculo:
+
+https://meet.google.com/kxz-bbqv-uhw 
+ 
+O abre Meet y escribe este código: kxz-bbqv-uhw
+
+
+Virtualenv:
+-----------------
+
+This is my solution for the error:
+
+$ python3.7 -m venv venv
+
+    Failing command: ['/venv/bin/python3.6', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+Solution:
+
+$ rm -rf venv
+$ apt install python3.7-venv
+$ python3.7 -m venv venv
+
+Instalación de Paquetes:
+------------------------
+
+https://packaging.python.org/en/latest/tutorials/installing-packages/
+
+Instalación de Paquetes:
+------------------------
+
+https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
+
+Primeros pasos:
+
+1. crear un setup.py
+
+
+reStructurecText
+----------------
+
+https://docutils.sourceforge.io/rst.html
