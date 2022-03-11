@@ -12,18 +12,21 @@ A sample Python project.
 
 # Python tiene librerias standar
 
+from pickle import TRUE
 from setuptools import setup, find_packages  # noqa
 
+with open('README.rst', 'r') as f:
+    DESCRIPTION= f.read()
 
 setup(
     name='Pyodita',
-    version='0.0.1a'
-    description='A sample Python project',
-    long_description=__doc__,
+    version='0.0.1a',
+    description='Pyodita mi primera libreria python <3',
+    long_description=DESCRIPTION,
     long_description_content_type='text/x-rst',
-    url='https://github.com/juniors90/pytodita',
-    author='Ferreira Juan David',
-    author_email='juandavid9a0@gmail.com',
+    url='https://github.com/irene06',
+    author='Irene Florencia Escobar',
+    author_email='irene.e06@gmail.com',
     license='MIT',
     classifiers=[
     # How mature is this project? Common values are
@@ -53,13 +56,12 @@ setup(
     project_urls={
         'Documentation': 'https://packaging.python.org/tutorials/distributing-packages/',
         'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
+        'Say Thanks!': 'https://github.com/Juniors90-Devs',
+        'Source': 'https://github.com/irene06',
         'Tracker': 'https://github.com/pypa/sampleproject/issues',
     },
     packages=find_packages(include=['pyodita', 'pyodita.*']),
     install_requires=[],
     python_requires='>=3.7',
+    include_package_data= True,
 )
-
-
