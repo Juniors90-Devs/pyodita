@@ -37,7 +37,7 @@ setup(
 
     # Indicate who your project is intended for
     'Intended Audience :: Developers :: Researchs',
-    'Topic :: Software Development :: Build Tools :: Biotecnology',
+    'Topic :: Software Development :: Build Tools :: Biotechnology',
 
     # Pick your license as you wish (should match "license" above)
     'License :: OSI Approved :: MIT License',
