@@ -22,3 +22,48 @@ There are a variety of metadata and options supported here. This is in configpar
 
 - `classifiers` gives the index and pip some additional metadata about your package. In this case, the package is only compatible with Python 3, is licensed under the MIT license, and is OS-independent. You should always include at least which version(s) of Python your package works on, which license your package is available under, and which operating systems your package will work on. For a complete list of classifiers, see https://pypi.org/classifiers/.
 - `include_package_data`
+
+Docs
+===
+
+```
+$$ sphinx-quickstart
+Bienvenido a la utilidad de inicio rápido de Sphinx 4.4.0.
+
+Ingrese los valores para las siguientes configuraciones (solo presione Entrar para
+aceptar un valor predeterminado, si se da uno entre paréntesis).
+
+Ruta raíz seleccionada: .
+
+Tiene dos opciones para colocar el directorio de compilación para la salida de Sphinx.
+O usas un directorio "_build" dentro de la ruta raíz, o separas
+directorios "fuente" y "compilación" dentro de la ruta raíz.
+> Separar directorios fuente y compilado (y/n) [n]: y
+
+El nombre del proyecto aparecerá en varios lugares en la documentación construida.
+> Nombre de proyecto: Pyodita
+> Autor(es): Ferreira Juan David
+> Liberación del proyecto []: 0.0.1
+
+Si los documentos deben escribirse en un idioma que no sea inglés,
+puede seleccionar un idioma aquí por su código de idioma. Sphinx entonces
+traducir el texto que genera a ese idioma.
+
+Para obtener una lista de códigos compatibles, vea
+https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language.
+> Lenguaje del proyecto [en]: en
+
+Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/source/conf.py.
+Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/source/index.rst.
+Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/Makefile.
+Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/make.bat.
+
+Terminado: se ha creado una estructura de directorio inicial.
+
+Ahora debe completar su archivo maestro /home/juniordavid/Escritorio/Mentorias/pycellid/docs/source/index.rst y crear otros archivos fuente
+de documentación.Use el archivo Makefile para compilar los documentos, así ejecute el comando:
+    make builder
+donde "builder" es uno de los constructores compatibles, por ejemplo, html, latex o linkcheck.
+
+$$
+```
