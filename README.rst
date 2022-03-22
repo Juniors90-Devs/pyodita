@@ -53,14 +53,14 @@ Para obtener una lista de códigos compatibles, vea
 https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language.
 > Lenguaje del proyecto [en]: en
 
-Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/source/conf.py.
-Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/source/index.rst.
-Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/Makefile.
-Creando archivo /home/juniordavid/Escritorio/Mentorias/pycellid/docs/make.bat.
+Creando archivo /path/to/the/project/docs/source/conf.py.
+Creando archivo /path/to/the/project/docs/source/index.rst.
+Creando archivo /path/to/the/project/docs/Makefile.
+Creando archivo /path/to/the/project/docs/make.bat.
 
 Terminado: se ha creado una estructura de directorio inicial.
 
-Ahora debe completar su archivo maestro /home/juniordavid/Escritorio/Mentorias/pycellid/docs/source/index.rst y crear otros archivos fuente
+Ahora debe completar su archivo maestro /path/to/the/project/docs/source/index.rst y crear otros archivos fuente
 de documentación.Use el archivo Makefile para compilar los documentos, así ejecute el comando:
     make builder
 donde "builder" es uno de los constructores compatibles, por ejemplo, html, latex o linkcheck.
